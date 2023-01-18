@@ -10,7 +10,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy" : "gh-pages -d build -r https://$GH_TOKEN@github.com/ANTGG-dev/cv"
   },
   "dependencies": {
     "@apollo/client": "^3.3.21",
