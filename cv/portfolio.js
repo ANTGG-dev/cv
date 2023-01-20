@@ -4,9 +4,9 @@ export const greetings = {
 	name: "Antonio García Gutiérrez",
 	title: "Hi all, I'm Antonio",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Java, Spring, Python, Django, React.js, Next.js and Machine Learning development, as well with SQL and Oracle Data Bases.",
+		"I'm passionate Full Stack web developer having an experience of web applications with Java, Spring, Python, Django, React.js, Next.js and Machine Learning development, knowledge in SQL and Oracle DB as well.",
 	resumeLink:
-		"https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
+		"https://drive.google.com/file/d/1U1QVKv3H50qCa2JOorsZ_YpVU_s3WmU3/view?usp=sharing",
 };
 
 export const openSource = {
@@ -16,8 +16,8 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	url: "https://github.com/ANTGG-dev",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
+	url: "https://antonio.codicusx.com",
+	linkedin: "https://www.linkedin.com/in/antonio-garcia-gutierrez-02348215b/",
 	github: "https://github.com/ANTGG-dev",
 	instagram: "",
 	facebook: "",
@@ -27,18 +27,18 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
 	data: [
 		{
 			title: "Full Stack Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+					"⚡ Building responsive Single-Page-Apps in React.js"
 				),
 				emoji("⚡ Building responsive static websites using Next.js"),
 				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
+					"⚡ Building RESTful APIs in Django & SpringBoot"
 				),
 			],
 			softwareSkills: [
@@ -72,16 +72,16 @@ export const skillsSection = {
 				},
 
 				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
+					skillName: "Oracle",
+					fontAwesomeClassname: "logos:oracle",
 				},
 				{
-					skillName: "NPM",
-					fontAwesomeClassname: "logos:npm-icon",
+					skillName: "Java",
+					fontAwesomeClassname: "logos:java",
 				},
 				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
+					skillName: "Spring",
+					fontAwesomeClassname: "logos:spring",
 				},
 			],
 		},
@@ -146,41 +146,38 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
+					"⚡Experience in developing with PyTorch"
 				),
 				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
+					"⚡Building Scripts for predict with Python"
 				),
 				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
+					"⚡Experience of using Pandas, Numpy, Matplotlib"
 				),
 				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
+					"⚡Building Heuristics algorithms"
 				),
 			],
 			softwareSkills: [
 				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
+					skillName: "PyTorch",
+					fontAwesomeClassname: "logos:pytorch",
 				},
 				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
+					skillName: "Numpy",
+					fontAwesomeClassname: "logos:numpy",
 				},
 				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
+					skillName: "Matplotlib",
+					fontAwesomeClassname: "logos:matplotlib",
 				},
 				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
+					skillName: "Python",
+					fontAwesomeClassname: "logos:python",
 				},
 				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
+					skillName: "TensorFlow",
+					fontAwesomeClassname: "logos:tensorflow",
 				},
 			],
 		},
@@ -190,56 +187,47 @@ export const skillsSection = {
 export const SkillBars = [
 	{
 		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		progressPercentage: "70", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "80",
 	},
 	{
-		Stack: "Programming",
-		progressPercentage: "60",
+		Stack: "Algorithm Programming",
+		progressPercentage: "80",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		grade: "Grade A",
+		schoolName: "Autonomus University of Queretaro",
+		subHeader: "Master of Science in Artificial Intelligence",
+		duration: "July 2021 - Present",
+		grade: "M.Sc",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Course in Automation",
+		],
+	},
+	{
+		schoolName: "Autonomus University of Queretaro",
+		subHeader: "Bachelor's degree in Computer Science",
+		duration: "July 2016 - July 2020",
+		grade: "L.I",
+		descBullets: [
+			"Diplomat in Web Development",
+			"Course in Microservices",
+			"Course in Control",
 		],
 	},
 ];
 
 export const experience = [
 	{
-		role: "Frontend Developer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
-		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
-	},
-	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-		// descBullets: [
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
-	},
-	{
 		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
+		company: "UAQ",
+		companylogo: "/img/icons/common/download.png",
+		date: "Sept 2018 - Present",
 		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
 	},
 	{
@@ -275,18 +263,6 @@ export const projects = [
 	},
 ];
 
-export const feedbacks = [
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-];
 
 // option to hide or show the ContactUs component
 export const showContactUs = true;
@@ -297,13 +273,13 @@ export const seoData = {
 	description:
 		"A passionate Full Stack Web Developer and Machine Learning Developer.",
 	author: "Antonio García Gutiérrez",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	image: "/img/icons/common/pic.jpg",
+	url: "https://antonio.codicusx.com/",
 	keywords: [
-		"Hanzla",
+		"Antonio",
 		"Antonio García Gutiérrez",
-		"@1hanzla100",
-		"1hanzla100",
+		"@antgg-dev",
+		"antgg-dev",
 		"Portfolio",
 		"Antonio Portfolio ",
 		"Antonio García Gutiérrez Portfolio",
